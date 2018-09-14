@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <style>
+    #title{
+      color:white;
+    }
+      #left{
+        float:left;
+        width:450px;
+        height:300px;
+        background:red;
+        font:70px;
+        color:white;
+        background-image:url(https://thumbs.dreamstime.com/b/homemade-burger-whole-grain-bun-spicy-pickled-peppers-wooden-background-107868940.jpg);
+        background-size:500px;
+      }
+      #right{
+        float:right;
+        width:450px;
+        height:300px;
+        background:blue;
+        font:30px;
+        color:black;
+        background-image:url(https://theactorsdiet.com/wp-content/uploads/2015/05/Blackbean-Burger.jpg);
+        background-size:400px;
+      }
+      #body{
+        background-image:url(https://i.ytimg.com/vi/bws69tIE4lE/hqdefault.jpg);
+      }
+    </style>
+  </head>
+  <body id="body">
+    <h1 id="title">Burger Menu</h1>
+     <div id= "left">
+       <p id="sName"></p>
+       <p id= "sMeat"></p>
+       <p id= "sVeg"></p>
+       <p id="sSauce"></p>
+       <p id="sPrice"></p>
+      <button onclick="spicyTotal()">Buy Spicy</button>
+      <h1 id="spicyFinal"></h1>
+    </div>
+    <div id="right">
+    <p id ="mName"></p>
+    <p id="mMeat"></p>
+    <p id="mVeg"></p>
+    <p id="mSauce"></p>
+    <p id="mPrice"></p>
+    <button onclick="mildTotal()">Buy Mild</button>
+    <h1 id="mildFinal"></h1>
+    </div>
+    <script src= "spicyBurger.js"></script>
+  </body>
+</html>
